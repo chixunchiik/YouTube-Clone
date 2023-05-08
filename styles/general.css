@@ -1,0 +1,38 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  /* This style below will be inherited*/
+  font-family: Roboto, Arial;
+  background-color: rgb(249, 249, 249);
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  height: 1555px;
+}
+
+@media (min-width: 1125px) {
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1125px) {
+  .video-author,
+  .video-stats {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1124.9px) {
+  body {
+    margin-left: 168px;
+  }
+}
